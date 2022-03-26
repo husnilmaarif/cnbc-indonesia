@@ -1,0 +1,4 @@
+Nav ul li:hover {
+  background-color: #3794ff;
+  transition: 0.5s;
+}

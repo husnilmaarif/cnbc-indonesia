@@ -1,10 +1,34 @@
+// komponen
 import "./App.css";
-import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import Navigasi from "./components/navigasi";
+// ===============
+
+// routing
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Main from "./pages/main/main";
+import Trending from "./pages/trending/trending";
+import Olahraga from "./pages/olahraga/olahraga";
+import Tekhnologi from "./pages/tekhnologi/tekhnologi";
+import Masuk from "./pages/masuk/masuk";
+import Daftar from "./pages/daftar/form-register";
+// ===============
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Router>
+        <Navigasi />
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+          <Route path="/trending" element={<Trending />} />
+          <Route path="/olahraga" element={<Olahraga />} />
+          <Route path="/tekhnologi" element={<Tekhnologi />} />
+          <Route path="/masuk" element={<Masuk />} />
+          <Route path="/daftar" element={<Daftar />} />
+        </Routes>
+        <Footer />
+      </Router>
     </>
   );
 }
