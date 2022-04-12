@@ -26,37 +26,37 @@ function Navigasi() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
               <Nav.Link className="link">
-                <Link to="/trending" style={{ textDecoration: "none", color: "white" }}>
+                <Link to="/market" style={{ textDecoration: "none", color: "white" }}>
                   MARKET
                 </Link>
               </Nav.Link>
               <Nav.Link className="link">
-                <Link to="/olahraga" style={{ textDecoration: "none", color: "white" }}>
+                <Link to="/investment" style={{ textDecoration: "none", color: "white" }}>
                   INVESTMENT
                 </Link>
               </Nav.Link>
               <Nav.Link className="link">
-                <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
+                <Link to="/news" style={{ textDecoration: "none", color: "white" }}>
                   NEWS
                 </Link>
               </Nav.Link>
               <Nav.Link className="link">
-                <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
+                <Link to="/entrepreneur" style={{ textDecoration: "none", color: "white" }}>
                   ENTREPRENEUR
                 </Link>
               </Nav.Link>
               <Nav.Link className="link">
-                <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
+                <Link to="/syariah" style={{ textDecoration: "none", color: "white" }}>
                   SYARIAH
                 </Link>
               </Nav.Link>
               <Nav.Link className="link">
-                <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
+                <Link to="/tech" style={{ textDecoration: "none", color: "white" }}>
                   TECH
                 </Link>
               </Nav.Link>
               <Nav.Link className="link">
-                <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
+                <Link to="/lifestyle" style={{ textDecoration: "none", color: "white" }}>
                   LIFESTYLE
                 </Link>
               </Nav.Link>
