@@ -1,9 +1,8 @@
-// IMPORT
 import React from "react";
 import ShowErrors from "./error";
+// ===============
 
-// INPUT
-const Input = ({ label, type, name, placeholder, onChange }) => {
+function Input({ label, type, name, placeholder, onChange }) {
   return (
     <div>
       <label>{label}:</label>
@@ -12,7 +11,7 @@ const Input = ({ label, type, name, placeholder, onChange }) => {
       <br />
     </div>
   );
-};
+}
 
 export default class Daftar extends React.Component {
   state = {

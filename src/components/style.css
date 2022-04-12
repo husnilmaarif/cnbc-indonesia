@@ -1,4 +1,8 @@
-Nav ul li:hover {
-  background-color: #3794ff;
+Nav {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+Nav .link:hover {
+  background-color: #099ae2;
   transition: 0.5s;
 }

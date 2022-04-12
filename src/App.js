@@ -1,11 +1,17 @@
-// komponen
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// ===============
+
+// styling
 import "./App.css";
+// ===============
+
+// komponen
 import Footer from "./components/footer";
 import Navigasi from "./components/navigasi";
 // ===============
 
 // routing
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./pages/main/main";
 import Trending from "./pages/trending/trending";
 import Olahraga from "./pages/olahraga/olahraga";

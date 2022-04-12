@@ -15,29 +15,49 @@ function Navigasi() {
       </div>
       <Navbar className="navbar navbar-dark" expand="lg" style={{ backgroundColor: "#204d7f" }}>
         <Container>
-          <Navbar.Brand>
-            <Link to="/" style={{ listStyle: "none", textDecoration: "none", color: "white" }}>
-              CNBC Indonesia
-            </Link>
-          </Navbar.Brand>
+          <Nav>
+            <Nav.Link className="link">
+              <Link to="/" style={{ listStyle: "none", textDecoration: "none", color: "white", marginRight: "8px" }}>
+                HOME
+              </Link>
+            </Nav.Link>
+          </Nav>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              {/* <ul style={{ display: "flex", fontSize: "17px" }}> */}
-              {/* <li style={{ listStyle: "none" }} className="mt-3"> */}
-              <Nav.Link>
+            <Nav>
+              <Nav.Link className="link">
                 <Link to="/trending" style={{ textDecoration: "none", color: "white" }}>
-                  Trending
+                  MARKET
                 </Link>
               </Nav.Link>
-              <Nav.Link>
+              <Nav.Link className="link">
                 <Link to="/olahraga" style={{ textDecoration: "none", color: "white" }}>
-                  Olagraga
+                  INVESTMENT
                 </Link>
               </Nav.Link>
-              <Nav.Link>
+              <Nav.Link className="link">
                 <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
-                  Tekhnologi
+                  NEWS
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="link">
+                <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
+                  ENTREPRENEUR
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="link">
+                <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
+                  SYARIAH
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="link">
+                <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
+                  TECH
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="link">
+                <Link to="/tekhnologi" style={{ textDecoration: "none", color: "white" }}>
+                  LIFESTYLE
                 </Link>
               </Nav.Link>
             </Nav>
