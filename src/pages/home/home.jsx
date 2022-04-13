@@ -4,13 +4,13 @@ import { Card, Button, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 // ===============
 
-function Main() {
+function Home() {
   const [cards, setCards] = useState([]);
   const [search, setSearch] = useState("IHSG");
 
   useEffect(() => {
     async function getResults() {
-      const results = await axios(`https://newsapi.org/v2/everything?from=2022-03-06&sortBy=popularity&apiKey=872548cb815940ceb00f8c39611b4795&q=${search}`);
+      const results = await axios(`https://newsapi.org/v2/everything?q=${search}&apiKey=872548cb815940ceb00f8c39611b4795`);
       setCards(results.data.articles);
     }
     getResults();
@@ -56,4 +56,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Home;

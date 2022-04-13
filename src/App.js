@@ -6,13 +6,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 // ===============
 
-// komponen
-import Footer from "./components/footer";
+// components
 import Navigasi from "./components/navigasi";
+import Footer from "./components/footer";
 // ===============
 
-// routing
-import Main from "./pages/main/main";
+// pages
+import Home from "./pages/home/home";
 import Market from "./pages/market/market";
 import Investment from "./pages/investment/investment";
 import News from "./pages/news/news";
@@ -29,7 +29,7 @@ function App() {
       <Router>
         <Navigasi />
         <Routes>
-          <Route exact path="/" element={<Main />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/market" element={<Market />} />
           <Route path="/investment" element={<Investment />} />
           <Route path="/news" element={<News />} />
