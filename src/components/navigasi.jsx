@@ -1,5 +1,5 @@
 import React from "react";
-import logoCNBC from "../img/logo-cnbc.png";
+import logoCNBC from "../img/cnbc.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ function Navigasi() {
     <>
       <div style={{ backgroundColor: "#295d97", padding: "20px 10px" }}>
         <div className="container">
-          <img src={logoCNBC} alt="logo cnbc" />
+          <img src={logoCNBC} alt="logo cnbc" width={300} />
         </div>
       </div>
       <Navbar className="navbar navbar-dark" expand="lg" style={{ backgroundColor: "#204d7f" }}>

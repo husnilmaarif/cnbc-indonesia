@@ -1,3 +1,5 @@
+/* navigasi */
+
 Nav {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -5,4 +7,15 @@ Nav {
 Nav .link:hover {
   background-color: #099ae2;
   transition: 0.5s;
+}
+
+/* footer */
+
+.info-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.info-footer span {
+  color: white;
 }
